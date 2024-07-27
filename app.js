@@ -38,7 +38,10 @@ mongoose
 //   useCreateIndex: true,
 //   useUnifiedTopology: true,
 //   useFindAndModify: false,
+
 // });
+
+//mongoose connect
 
 const db = mongoose.connection;
 db.on("error", console.error.bind(console, "connection error:"));
